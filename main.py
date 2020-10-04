@@ -1652,6 +1652,7 @@ def sessio_dynamic2(name, kid, lic_key, projectid, task):
             print("-------------------------------------------------------")
             print("update time===", self._elapsedtime)
             print("update timer===", self._timer)
+            print("-------------------------------------------------------")
         def _setTime(self, elap):
             seconds = elap
             hours = seconds // (60 * 60)
